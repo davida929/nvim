@@ -43,23 +43,23 @@ return {
 
 			-- configuring server
 			lspconfig.lua_ls.setup({
-				capabilities = cabalities,
+				capabilities = capabilities,
 			})
 			-- configuring server
 			lspconfig.tsserver.setup({
-				capabilities = cabalities,
+				capabilities = capabilities,
 			})
 			-- configuring server
 			lspconfig.html.setup({
-				capabilities = cabalities,
+				capabilities = capabilities,
 			})
 			-- configuring server
 			lspconfig.dockerls.setup({
-				capabilities = cabalities,
+				capabilities = capabilities,
 			})
 			-- configuring server
 			lspconfig.clangd.setup({
-				capabilities = cabalities,
+				capabilities = capabilities,
 			})
 		end,
 	},
