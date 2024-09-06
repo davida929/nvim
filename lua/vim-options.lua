@@ -13,7 +13,7 @@ vim.cmd("set shiftwidth=4")
 -- basic keymap
 vim.keymap.set("n", "<C-s>", ":w<CR>", {})
 vim.keymap.set("n", "<C-z>", ":u<CR>", {})
-vim.keymap.set("n", "<C-q>", ":qa<CR>", {})
+vim.keymap.set("n", "<C-q>", ":qa!<CR>", {})
 
 -- vim mapleader
 vim.g.mapleader = " "
