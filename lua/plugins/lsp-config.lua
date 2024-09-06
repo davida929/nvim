@@ -20,6 +20,7 @@ return {
 				ensure_installed = {
 					"lua_ls",
 					"html",
+					"grammarly",
 					"tsserver",
 					"clangd",
 				},
@@ -59,6 +60,11 @@ return {
 			})
 			-- configuring server
 			lspconfig.clangd.setup({
+				capabilities = capabilities,
+			})
+
+			-- configuring server
+			lspconfig.grammarly.setup({
 				capabilities = capabilities,
 			})
 		end,
