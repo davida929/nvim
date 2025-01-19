@@ -61,6 +61,27 @@ return {
 			lspconfig.clangd.setup({
 				capabilities = capabilities,
 			})
+			lspconfig.pylsp.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.emmet_ls.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.emmet_language_server.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.cssls.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.intelephense.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.phpactor.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.stimulus_ls.setup({
+				capabilities = capabilities,
+			})
 		end,
 	},
 }

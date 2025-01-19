@@ -1,3 +1,4 @@
+vim.cmd("highlight Normal ctermbg=none guibg=none")
 -- requiring vim-options 
 require("vim-options")
 
@@ -21,3 +22,5 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
+
+

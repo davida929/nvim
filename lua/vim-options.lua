@@ -12,6 +12,7 @@ vim.cmd("set shiftwidth=2")
 
 -- basic keymap
 vim.keymap.set("n", "<C-s>", ":w<CR>", {})
+vim.api.nvim_set_keymap('i', '<C-s>', '<Esc>:w<CR>', {})
 vim.keymap.set("n", "<C-z>", ":u<CR>", {})
 vim.keymap.set("n", "<C-q>", ":qa!<CR>", {})
 
@@ -21,3 +22,6 @@ vim.g.mapleader = " "
 -- configure shell
 -- vim.o.shell = "bash.exe"
 -- vim.o.shell = "powershell"
+-- 
+
+
